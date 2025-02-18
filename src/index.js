@@ -12,5 +12,5 @@ app.use(express.json())
 new Routes(app)
 
 app.listen(port, () => {
-  console.info(`🚀 Express is running at http://${host}:${port}/api`)
+  console.info(`🚀 Express is running at http://${host}:${port}`)
 })
